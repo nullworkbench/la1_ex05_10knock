@@ -10,8 +10,6 @@ import UIKit
 class TableViewViewController: UIViewController, UITableViewDataSource {
     
     @IBOutlet var tableView: UITableView!
-    
-    @IBOutlet var label: UILabel!
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -25,8 +23,6 @@ class TableViewViewController: UIViewController, UITableViewDataSource {
     
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "Cell")
-        
-        cell?.textLabel?.text = "Life is Tech！"
         
         return cell!
     }

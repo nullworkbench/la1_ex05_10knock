@@ -11,7 +11,7 @@ class ViewController: UIViewController, UITableViewDataSource, UITableViewDelega
     
     @IBOutlet var tableView: UITableView!
     
-    let programArray: [String] = ["Count", "Timer", "Cebu", "TableView", "TableView2", "Memo"]
+    let programArray: [String] = ["Count", "Timer", "Cebu", "TableView", "TableView2", "Memo", "Login"]
 
     override func viewDidLoad() {
         super.viewDidLoad()
